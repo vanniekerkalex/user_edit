@@ -36,7 +36,7 @@ const RootQuery = new GraphQLObjectType({
       type: UserType,
       args: { login: { type: GraphQLString } },
       resolve(parent, args) {
-        return User.findById(args.login);
+        return User.findOne({ login: args.login });
       }
     },
     users: {

@@ -1,0 +1,55 @@
+body {
+  background: #eee;
+  font-family: arial;
+}
+
+#user-list li {
+  display: inline-block;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #228dfa;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #228dfa;
+}
+
+#user-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #228dfa;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  color: #fff;
+}
+
+button {
+  color: #fff;
+  font-size: 1.5em;
+  background: #228dfa;
+  border: 0;
+  padding: 0 10px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#edit-user {
+  background: #fff;
+  font-size: 1.5em;
+  color: #10569c;
+  border: 0;
+  padding: 0 10px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
